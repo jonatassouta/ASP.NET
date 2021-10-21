@@ -1,0 +1,10 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 20px;
+    background-color: rgb(87, 144, 250);
+}

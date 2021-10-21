@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .fundoForm {
+        background-color: blanchedalmond;
+        padding: 10px;
+      }
+    </style>
+
+    <title>Home</title>
+  </head>
+  <body>
+    
+    <!-- Inicio Form -->
+
+    <div class="container">
+
+        <h1>Funcionários</h1>
+        <form class="fundoForm g-3 was-validated" novalidate>
+          <div class="row">
+
+            <div class="col-md-8">
+              <div class="mb-3">
+                <label for="validationCustomUsername" class="form-label">Funcionário</label>
+                <input id="validationCustom01" type="text" class="form-control" placeholder="Nome do Funcionário" required name="funcionarios" id="func">
+                <div class="valid-feedback">
+                  Looks good!
+                </div>
+              </div>
+            </div>
+            
+            <div class="col-md-4">
+              <div class="mb-3">
+                <label class="form-label" for="validationCustom01" class="form-control" >Data Contratação</label>
+                <input type="date" class="form-control" id="validationCustom01" required>
+              </div>  
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md mb-3">
+              <label class="form-label">Login</label>
+              <div class="input-group">
+                <input type="email" class="form-control" placeholder="Nome de usuário" required>
+                <span class="input-group-text" id="basic-addon1">@exemplo.com</span>
+              </div>  
+            </div>
+
+            <div class="col-md mb-3">
+              <label class="form-label">Senha</label>
+              <div class="input-group">  
+                <input type="password" class="form-control" placeholder="*************" required>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row">
+
+            <div class="col-md-6">
+              <div class="mb-3">
+                <label class="form-label">Endereço</label>
+                <input type="text" class="form-control" placeholder="Digite seu endereço" required>
+              </div>
+            </div>
+
+            <div class="col-md-2">
+              <div class="mb-3">
+                <label class="form-label">Complemento</label>
+                <input type="text" class="form-control" placeholder="Nº / casa / ape" required>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="mb-3">
+                <label class="form-label">Cidade</label>
+                <input type="text" class="form-control" placeholder="Digite sua cidade" required>
+              </div>
+            </div>
+
+            <div class="col-md">
+              <div class="mb-3">
+                <label class="form-label">bairro</label>
+                <input type="text" class="form-control" placeholder="Digite o bairro em que mora" required>
+              </div>
+            </div>
+
+          </div>
+           
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    
+    <!-- Fim do Form -->
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
